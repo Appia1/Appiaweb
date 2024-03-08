@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.about {
+width: 100%;
+height: 100vh;
+background: black;
+margin-top: -5px;
+margin-left: -20px;
+padding: 50px;
+}
+.about p {
+     position: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.about h1{
+    position: center;
+    color: #ff7200;
+    text-align: center;
+}

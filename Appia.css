@@ -1,0 +1,471 @@
+    *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.main{
+width: 100%; 
+background: black;
+background-position: center;
+background-size: cover;
+}
+
+body{
+font-family: montserrat;
+}
+
+nav{
+background: #ff7200;
+height: 80px;
+width: 100%;
+}
+
+label. logo{
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 100px;
+font-weight: bold;
+}
+
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a{
+color: white;
+font-size: 17px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #ff7200;
+    transition: .5s;
+}
+
+
+a.active,a:hover{
+    background: blue;
+    transition: .5s;
+}
+
+.checkbtn{
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+
+#check{
+display: none;
+}
+@media, (max-width: 952px) {
+label. logo{
+font-size: 30px;
+padding-left: 50px;
+}
+nav ul li a{
+font-size: 16px;
+}
+
+@media (max-width: 858px){
+.checkbtn{
+display: block;
+}
+ul{
+position: fixed;
+width: 50%;
+height: 100vh;
+background: #2c3e50;
+top: 80px;
+left: -100%;
+text-align: center;
+transition: all .5s;
+}
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+nav ul li a{
+font-size: 20px;
+}
+a: hover, a. active{
+background: none;
+color: #0082e6;
+}
+#check:checked~ul{
+    left: 0;
+}
+}
+
+
+.maxm{
+    position: relative;
+}
+
+.maxm img{
+width: 90%;
+height: 200px;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.maxm-text{
+position: absolute;
+top: 10%;
+left: 20%;
+color: white;
+font-family: sans-serif;
+text-align: center;
+font-size: 90%;
+padding: 10px;
+}
+
+.cn{
+width: 100px;
+height: 40px;
+background: #ff7200;
+border: none;
+margin-top: 10px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: #fff:
+transition: 0.4s ease;
+font-weight: bold;
+}
+
+.cn a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.cn: hover {
+background-color: white;
+}
+
+
+.about-details {
+width: 90%;
+height: 400px;
+background: black;
+position: relative;
+top: -20px;
+left: 5%;
+border-radius: 10px;
+padding: 5px;
+}
+
+.about{
+    position: relative;
+}
+
+.about img{
+width: 80%;
+height: 80%;
+margin-top: 20px;
+margin-left: 10%;
+border-radius: 10px;
+}
+
+.about-text{
+position: relative;
+text-align: center;
+color: white;
+font-size: 12px;
+padding: 10px;
+}
+
+.about h1 {
+    font size: 20;
+    color: red;
+    text-align: center;
+}
+
+.booking {
+width: 90%;
+height: 1150px;
+background: black;
+position: relative;
+top: 10px;
+left: 5%;
+border-radius: 10px;
+padding: 5px;
+}
+
+.booking h1{
+    font-size: 200%;
+    color: red;
+    text-align: center;
+}
+
+
+
+.business{
+    position: relative;
+}
+
+.business img{
+width: 90%;
+height: 50%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.business-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonb {
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: -20%;
+margin-top: 35%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonb a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.private{
+    position: relative;
+}
+
+.private img{
+width: 90%;
+height: 60%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.private-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+.bttonp {
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: -20%;
+margin-top: 60%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonp a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.permit{
+    position: relative;
+}
+
+.permit img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+
+}
+
+.permit-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonpm{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 140%;
+margin-top: -40%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonpm a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+
+.meet{
+    position: relative;
+}
+
+.meet img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.meet-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonmg{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 190px;
+margin-top: -50px;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonmg a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.appearance{
+    position: relative;
+}
+
+.appearance img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.appearance-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonpp{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 150%;
+margin-top: -40%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonpp a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.donation {
+width: 90%;
+height: 400px;
+background: black;
+position: relative;
+top: 10px;
+left: 5%;
+}
+
+.donation h1{
+    font size: 30;
+    color: red;
+    text-align: center;
+}
+
+.donation img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.donation-text {
+position: relative;
+text-align: center;
+color: white;
+font-size: 18px;
+padding: 10px;
+}
+
+
+.cnn{
+width: 100px;
+height: 40px;
+background: #ff7200;
+border: none;
+margin-top: 10px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: #fff:
+transition: 0.4s ease;
+font-weight: bold;
+margin-left: 35%;
+}
+
+.cnn a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.cnn: hover {
+background-color: white;
+}
